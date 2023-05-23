@@ -1,0 +1,256 @@
+body{
+    background-color: #CEF6F5;
+    max-width: 100%;
+}
+
+.cabecalho {
+    background-color: rgb(101, 125, 161);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 27px;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-evenly;
+}
+
+.qualquer {
+    width: 20%;
+}
+
+.texto {
+    color: rgb(42, 46, 85);
+    font-family: "Impact" ;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.texto span {
+    font-size: 70px;
+    margin: 0;
+}
+
+.texto p {
+    margin: 0;
+    font-size: larger;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    align-items: center;
+}
+
+.botoes #btn1, #btn2, #btn3, #btn4, #btnhome {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 3px 3px 3px;
+    background-color: rgb(101, 125, 161);
+    color: rgb(42, 46, 85);
+    border: 2px;
+    margin-right: 10px;
+    border-radius: 20px;
+    }
+
+.convite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-cvt {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #46C7C7;
+    color: rgb(42, 46, 85);
+    font-size: 20px;
+    width: 35%;
+    border-radius: 30px;
+}
+.txt-cvt h1,p {
+    margin-left: 5px;
+    width: 95%;
+    text-align: center;
+}
+
+.txt-cvt a {
+    color: rgb(246, 250, 1);
+    animation: alternate  ;
+}
+
+.convite img {
+    margin-left: 25px;
+    margin-top: 25px;
+    max-width: 40%;
+}
+.informativo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 153%;
+}
+
+.informativo h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 65%;
+    background-color: #46C7C7;
+    border-radius: 21px;
+}
+
+.informativo img {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.informativo span {
+    text-align: center;
+    color: rgb(246, 250, 1);
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    width: 97%;
+}
+
+.apresentacao p {
+    font-family: system-ui;
+    font-size: 19px;
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 60%;
+}
+
+.apresentacao img {
+    border-radius: 50px;
+}
+
+.matricula {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.matricula #i1 {
+    width: 500px;
+    margin-bottom: 15px;
+    width: 500px;
+    font-family: impact;
+    background-color: rgb(101, 125, 161);
+    border-bottom: 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #2a2e55;
+}
+
+#i1::placeholder {
+    color: #2a2e55;
+    text-align: justify;
+}
+
+.btnconcluir {
+    display: flex;
+    justify-content: center;
+}
+.btnconcluir button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 3px 3px 3px;
+    background-color: rgb(101, 125, 161);
+    color: rgb(42, 46, 85);
+    border: 2px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.convite2 {
+    display: flex;
+    justify-content: center;
+}
+
+.convite2 h1 {
+    background-color: #46C7C7;
+    color: rgb(246, 250, 1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #2a2e55;
+}
+
+.cartao {
+    display: flex;
+    justify-content: center;
+    font-family: system-ui;
+}
+
+.cartao h1 {
+    background-color: #46C7C7;
+    color: rgb(246, 250, 1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #2a2e55;
+}
+
+.tour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+
+}
+
+.tour #t1, #t2, #t3, #t4, #t5, #t6, #t7, #t8, #t9, #t10, #t11 {
+    margin-left: 14px
+}
+
+.oi p {
+    font-family: cursive;
+    margin-top: 1px;
+    text-align: justify;
+    width: 85%;
+}
+
+.tour img{
+    width: 85%;
+    border-radius: 15px;
+}
+
+.professores {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.professores img {
+    width: 170px;
+    border-radius: 15px;
+}
+
+.oi {
+    background-color: #46C7C7;
+    color: #2a2e55;
+    border-radius: 15px ;
+    margin-top: 25px;
+    font-family: cursive;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 95%;
+}

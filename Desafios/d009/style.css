@@ -1,0 +1,15 @@
+@import url(font/PlayfairDisplay-BlackItalic.ttf);
+
+body {
+    font-family: "PlayfairDisplay-BlackItalic.ttf";
+    text-align: center;
+    background-color: #222121;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffff;
+  }
+  
+.playlist{
+    color:rgb(179, 179, 179)
+}

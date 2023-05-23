@@ -1,0 +1,137 @@
+@import url(font/PlayfairDisplay-BlackItalic.ttf);
+
+body {
+    background-image:radial-gradient(#BFB78F, #F2A71B) ;
+    background-size: auto;
+    color: #000000 ;
+    padding: 20px;
+}
+
+    .head {
+        font-family: "PlayfairDisplay-BlackItalic.ttf", monospace;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .head img{
+        width: 100px;
+        margin-right: 10px;
+    }
+    
+    .head p {
+        text-shadow: 2px 2px 10px;
+    font-family: "PlayfairDisplay-BlackItalic.ttf, monospace";
+    font-size: 50px;        
+    }
+.drop1 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+    .drop1 h1, h2 {
+        font-family: "PlayfairDisplay-BlackItalic.ttf", monospace;
+        width: 40%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: #F2A71B;
+        text-shadow: 5px;   
+        text-align: center;
+        border: 5px outset #011F26;
+        border-radius: 30px;
+        background-color: #025E73;          
+    }
+
+    .drop1 a {
+        text-decoration: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tshirt {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .tshirt h1 {
+        margin-bottom: 5px;
+    }
+
+    .tshirt h2 {
+        margin-bottom: 25px;
+    }
+
+    .fotos {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .btn {
+        margin-top: 25px;
+    }
+
+    .insta {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: fixed;
+        width: 60px;
+        height: 130px;
+        bottom: 40px;
+        right: 40px;
+        font-size: 60px;
+    }
+
+    .wpp {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 1000;     
+    }
+
+    h1:hover { 
+        color: #025E73;
+        background-color: #F2A71B;
+    }
+
+    .gg-menu-round {
+        box-sizing: border-box;
+        position: relative;
+        display: block;
+        transform: scale(var(--ggs,1));
+        width: 22px;
+        height: 22px;
+        border-radius: 24px;
+        border: 2px solid;
+    }
+    
+    .gg-menu-round::before {
+        content: "";
+       display: block;
+       box-sizing: border-box;
+       position: absolute;
+       width: 10px;
+       height: 2px;
+       background: currentColor;
+       border-radius: 3px;
+       top: 4px;
+       left: 4px;
+       box-shadow: 0 4px 0, 0 8px 0
+    }
+    

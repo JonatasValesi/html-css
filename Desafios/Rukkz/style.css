@@ -1,0 +1,72 @@
+@import url(font/PlayfairDisplay-BlackItalic.ttf);
+
+body {
+    font-family: "PlayfairDisplay-BlackItalic.ttf", monospace;
+    text-align: center;
+    background-image: url(imagens/porsche-retrato.jpg);
+    background-position: center;
+    background-size: center ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #000000 ;
+    text-align: center;
+    padding: 20px;}
+.page-title {
+    color: #000,;
+    font-family:"Playfair";
+    font-size: 50px;
+    text-shadow: #000000;
+}
+.drop {
+    color: #000000;
+    text-decoration: none;
+    text-shadow: 2px 2px rgb(0, 198, 248) ;
+    border-color: #ffffff;
+    font-family:"Playfair";
+    font-size: 30px;
+    border-radius: 20px;
+    
+    
+}
+.smile-rukkz {
+    width: 150px;
+    position:fixed;
+    width: 60px;
+    height:100px;
+    top: 50px;
+    left:40px;  
+}
+.sj {
+    width: 150px;
+    position:fixed;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    right:40px;  
+}
+#insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position:fixed;
+  width: 60px;
+  height:130px;
+  bottom:40px;
+  right:40px;  
+  font-size: 60px;
+}
+.btnwpp{
+    position:fixed;
+    width: 60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+}
