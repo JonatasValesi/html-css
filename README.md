@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://jonatasvalesi.github.io/html-css/ex001/index.html"> Ex001
+<a href="https://jonatasvalesi.github.io/html-css/ex001/index.html">
