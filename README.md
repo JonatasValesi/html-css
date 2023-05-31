@@ -22,7 +22,7 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
     <a href="https://JonatasValesi.github.io/html-css/Exercicios/ex017/fonte02.html"> Exercício 17.2
 </p>
 <p><a href="https://JonatasValesi.github.io/html-css/Exercicios/ex018/selector01.html"> Exercício 18</p>
-<a href="https://JonatasValesi.github.io/html-css/Exercicios/ex020/hover.html"> <p>
+<p><a href="https://JonatasValesi.github.io/html-css/Exercicios/ex020/hover.html"> 
     Exercício 20.hover <br>
     <a href="https://JonatasValesi.github.io/html-css/Exercicios/ex020/links.html"> Exercício 20.links <br>
     <a href="https://JonatasValesi.github.io/html-css/Exercicios/ex020/pseudoclasses.html"> Exercício 20.pseudoclasses
