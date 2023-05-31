@@ -3,7 +3,7 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://JonatasValesi.github.com/html-css/Exercicios/ex001/index.html"> Exercício 1
-<a href="https://JonatasValesi.github.com/html-css/Exercicios/ex002/index.html"> Exercício 2
-<a href="https://JonatasValesi.github.com/html-css/Exercicios/ex003/index.html"> Exercício 3
-<a href="https://JonatasValesi.github.com/html-css/Exercicios/ex004/index.html"> Exercício 4
+<a href="https://JonatasValesi.github.io/html-css/Exercicios/ex001/index.html"> Exercício 1
+<a href="https://JonatasValesi.github.io/html-css/Exercicios/ex002/index.html"> Exercício 2
+<a href="https://JonatasValesi.github.io/html-css/Exercicios/ex003/index.html"> Exercício 3
+<a href="https://JonatasValesi.github.io/html-css/Exercicios/ex004/index.html"> Exercício 4
