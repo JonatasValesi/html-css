@@ -11,22 +11,46 @@
 </head>
 <body>
     <div class="cabecalho">
-        <div class="slogan">
-            <div class="qualquer">
-                <img class="logo" src="img/I-Nova.png" alt="logo-inova">
-            </div>
-            <div class="texto">
-                <span>Colégio Inova </span>
-                <p>O colégio inovador</p>
-            </div>
+        <div class="qualquer">
+            <img class="logo" src="img/I-Nova.png" alt="logo-inova">
+        </div>
+        <div class="texto">
+            <span>Colégio Inova </span>
+            <p>O colégio inovador</p>
         </div>
     </div>
-    <div class="botoes" >
-            <a href="index.html"><button onclick="proposta" id="btnhome" >HOME</button></a>
-            <a href="proposta.html"><button onclick="proposta" id="btn1" >Peoposta pedagógica</button></a>
-            <a href="matricula.html"><button onclick="matricula" id="btn2">Matricula</button></a>
-            <a href="colegio.html"><button onclick="sobre" id="btn3">O colégio</button></a>
-            <a href="prof.html"><button onclick="sobre" id="btn4">Professores</button></a>
+    <div class="menu-bar" >
+        <button onclick="proposta" id="btnhome" ><a href="index.html">HOME</a></button>
+        <button onclick="sobre" id="btn3"><a href="colegio.html">O colégio</a></button>
+        <button onclick="proposta" id="btn1"><a href="proposta.html">Proposta</a></button>
+        <button onclick="sobre" id="btn4"><a href="prof.html">Professores</a></button>
+        <button onclick="matricula" id="btn2"><a href="matricula.html">Matricula</a></button>
+        <ul>
+            <li>
+            <button id="btn5"><a href="example.html">Area do aluno</a></button>
+                <ul>
+                    <li>
+                    <button id="btn6"><a href="example.html">Central do aluno</a></button>
+                    </li>
+                    <li>
+                    <button id="btn7"><a href="example.html">Secretaria digital</a></button></li>
+                    <li>
+                    <button id="btn8"><a class="menu-nav" href="example.html">Ambiente de aprendizagem</a></button>
+                    <ul>
+                        <li>
+                        <button id="btn9" ><a class="menu-nav" href="example.html">Minhas materias</a></button>
+                        <ul>
+                            <li><button id="btn10"><a href="example.html">português</a></button></li>
+                            <li><button id="btn11"><a href="example.html">Matematica</a></button></li>
+                            <li><button id="btn12"><a href="example.html">Ingles</a></button></li>
+                            <li><button  id="btn13"><a href="example.html">Historia</a></button></li>
+                        </ul>
+                        </li>
+                    </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
     <div class="cartao">
         <h1>Venha nos visitar</h1>

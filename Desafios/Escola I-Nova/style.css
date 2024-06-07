@@ -1,20 +1,20 @@
 body{
-    background-color: #CEF6F5;
-    max-width: 100%;
+    size: 100% ;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(206,246,245,1) 80%, rgba(70,199,199,1) 100%) no-repeat;
+    height: 100%;
 }
 
 .cabecalho {
     background-color: rgb(101, 125, 161);
     display: flex;
-    flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100%;
-    justify-content: center;
+    height: 3em;
+    justify-content: flex-start;
     border-radius: 27px;
 }
 
-.slogan {
+ /* .slogan {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -23,48 +23,87 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     justify-content: space-evenly;
-}
+} */
 
 .qualquer {
+    margin-left: 20px;
     width: 20%;
+}
+
+.logo {
+    width: 40px;
 }
 
 .texto {
     color: rgb(42, 46, 85);
-    font-family: "Impact" ;
+    font-family: "Impact";
     width: 50%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
 }
 
 .texto span {
-    font-size: 70px;
+    font-size: 20px;
     margin: 0;
 }
 
 .texto p {
-    margin: 0;
-    font-size: larger;
+    font-family: cursive;
+    margin: -5px;
 }
 
-.botoes{
+.menu-bar {
+    height: auto;
+    width: 285px;
     display: flex;
-    justify-content: center;
-    margin-top: 1%;
-    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 1% 1%;
+    background-color: rgb(101, 125, 161);
+    border-radius: 10px;
+    align-items: flex-start;
 }
 
-.botoes #btn1, #btn2, #btn3, #btn4, #btnhome {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    box-shadow: 3px 3px 3px;
+.menu-bar button, li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(101, 125, 161);
-    color: rgb(42, 46, 85);
-    border: 2px;
-    margin-right: 10px;
-    border-radius: 20px;
+    border: none;
+    margin: 2px 2px;
+    border-radius: 10px;
     }
 
+.menu-bar button a, .menu-bar ul li a {
+    font-size: medium;
+    color: rgb(42, 46, 85);
+    text-decoration: none;
+}
+.menu-bar button:hover > a, .menu-bar li button:hover > a{
+    color: rgb(246, 250, 1);
+}
+
+#btn1:hover,#btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover, #btn6:hover, #btn7:hover, #btn8:hover, #btn9:hover, #btn10:hover, #btn11:hover, #btn12:hover, #btn13:hover, #btnhome:hover  {
+    background-color: rgb(42, 46, 85);
+}
+
+
+ul, li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;   
+}
+
+div.menu-bar ul ul {
+    display: none;
+  }
+  
+div.menu-bar li:hover > ul {
+    display: block;
+  }
+    
 .convite{
     display: flex;
     justify-content: center;
@@ -109,7 +148,7 @@ body{
     align-items: center;
     justify-content: flex-start;
     width: 65%;
-    background-color: #46C7C7;
+    background: linear-gradient(#46C7C7     ) #46C7C7;
     border-radius: 21px;
 }
 
@@ -224,7 +263,7 @@ body{
     font-family: cursive;
     margin-top: 1px;
     text-align: justify;
-    width: 85%;
+    width: 77%;
 }
 
 .tour img{
