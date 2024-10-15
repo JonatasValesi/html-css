@@ -49,3 +49,11 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
     <a href="https://JonatasValesi.github.io/html-css/Exercicios/ex022/fundo004.html"> Exercício 22.4 <br>
     <a href="https://JonatasValesi.github.io/html-css/Exercicios/ex022/fundo005.html"> Exercício 22.5 <br>
     <a href="https://JonatasValesi.github.io/html-css/Exercicios/ex022/fundo006.html"> Exercício 22.6 
+<p>
+    <a href="https://JonatasValesi.github.io/html-css/Desafios/d005/index.html"> Desafio 05 <br>
+    <a href="https://JonatasValesi.github.io/html-css/Desafios/d006/index.html"> Desafio 06 <br>
+    <a href="https://JonatasValesi.github.io/html-css/Desafios/d009/index.html"> Desafio 09 <br>
+    <a href="https://JonatasValesi.github.io/html-css/Desafios/d010/index.html"> Desafio 10 <br>
+    <a href="https://JonatasValesi.github.io/html-css/Desafios/d012/index.html"> Desafio 12 <br>
+    
+        
